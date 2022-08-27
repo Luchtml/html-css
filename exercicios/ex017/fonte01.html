@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* Medidas Absolutas
+            cm,mm,in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            font-weight: 900;
+            font-style: italic;
+            text-decoration: underline;
+
+            /* dentro do peso, temos lighter, normal, bold e bolder */
+            
+
+            /* weight peso, widht largura, height altura*/
+        }
+
+        h1 {
+            
+
+            /* shorthand font
+            primeiro
+            - font style 
+            depois
+            font weight
+            depois 
+            font size
+            depois
+            font family
+
+            que fica: 
+
+            font-style -> font-weight -> font size -> font-family
+
+            SEMPRE USE ESSA ORDEM EM SHORTS HANDS
+            */
+
+            font: italic bolder 3em sans-serif;
+        }
+
+        h2 {
+            font: bold 2em times;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos saepe quidem, reprehenderit debitis sequi voluptatum praesentium quod nostrum, consequuntur, provident sed? Suscipit provident consequatur adipisci laborum, velit impedit ullam accusamus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatibus consectetur harum quia quam tempore praesentium! Placeat incidunt, ea itaque numquam, ipsum et nemo illo porro distinctio omnis accusantium esse!</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, quibusdam quae. Dolor adipisci quas tempora iste odit consectetur enim error praesentium earum nisi. Voluptatum cumque aspernatur doloribus excepturi voluptates labore!</p>
+</body>
+</html>
