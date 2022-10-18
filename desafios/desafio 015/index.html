@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Site</h1>
+        <span class="material-symbols-outlined" id="burguer" onclick="clickMenu()">menu</span>
+        <span class="material-symbols-outlined" id="closeIt">Close</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">opção1</a></li>
+                <li><a href="#">opção2</a></li>
+                <li><a href="#">opção3</a></li>
+                <li><a href="#">opção4</a></li>
+                <li><a href="#">opção5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando medias queries</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In labore porro voluptatem ex reprehenderit veritatis corporis obcaecati, perferendis, molestiae vel quam illo et. Sed commodi exercitationem autem nihil suscipit accusamus!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis architecto obcaecati reiciendis veritatis! Unde nisi repudiandae provident, quidem dolor ea possimus quam soluta, veniam, laborum nesciunt nobis deleniti doloremque temporibus quasi voluptatem? Debitis unde id magni ipsam eaque quos delectus aut natus provident ducimus numquam praesentium cupiditate ea illum voluptates distinctio, assumenda quaerat ratione itaque nesciunt eius maxime laborum aspernatur? Tempore soluta, mollitia at totam ut corporis doloremque praesentium, incidunt quis itaque fuga, aliquam nobis dolores delectus. Impedit deserunt quisquam ratione facilis, adipisci, in id nulla sit modi similique quia et, alias veritatis quasi eligendi? Dolorum, temporibus? Nihil, repellendus ducimus?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti quibusdam minus eum rem. Iste minima voluptatum quidem placeat laboriosam obcaecati in consectetur explicabo quo impedit, deleniti eveniet omnis quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti quibusdam minus eum rem. Iste minima voluptatum quidem placeat laboriosam obcaecati in consectetur explicabo quo impedit, deleniti eveniet omnis quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti quibusdam minus eum rem. Iste minima voluptatum quidem placeat laboriosam obcaecati in consectetur explicabo quo impedit, deleniti eveniet omnis quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti quibusdam minus eum rem. Iste minima voluptatum quidem placeat laboriosam obcaecati in consectetur explicabo quo impedit, deleniti eveniet omnis quibusdam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium deleniti quibusdam minus eum rem. Iste minima voluptatum quidem placeat laboriosam obcaecati in consectetur explicabo quo impedit, deleniti eveniet omnis quibusdam.</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+            closeIt.style.display = 'block'
+            
+            itens.style.display = 'block'
+            burguer.style.display = 'none'
+            closeIt.addEventListener('click', closeMenu)
+        }
+
+
+        function closeMenu() {
+            itens.style.display = 'none'
+            closeIt.style.display='none'
+            burguer.style.display = 'block'
+        }
+    </script>
+</body>
+</html>
